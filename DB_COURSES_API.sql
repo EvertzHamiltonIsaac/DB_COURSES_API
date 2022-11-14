@@ -89,15 +89,15 @@ INSERT INTO categories (name) VALUES ('programacion');
 INSERT INTO levels (name) VALUES ('beginner');
 INSERT INTO levels (name) VALUES ('medium');
 INSERT INTO levels (name) VALUES ('advanced');
---course_video
-INSERT INTO course_video (title,url,id_course) VALUES ('class 1','url 1', 1);
-INSERT INTO course_video (title,url,id_course) VALUES ('class 1','url 1', 2);
 --teachers
 INSERT INTO teachers (id_teacher , name, email) VALUES ('7457ca8e-d206-4814-b47e-352148a7fc6a','juan','juan@gmail.com');
 INSERT INTO teachers (id_teacher , name, email) VALUES ('6957f04a-dfca-4260-9b05-4aa3c392869b','pedro','pedro@gmail.com');
 --courses
 INSERT INTO courses (title,description,id_level,id_teacher) VALUES ('JavaScript','description example 1',1,'6957f04a-dfca-4260-9b05-4aa3c392869b');
 INSERT INTO courses (title,description,id_level,id_teacher) VALUES ('HTML and CSS','description example 2',3,'7457ca8e-d206-4814-b47e-352148a7fc6a');
+--course_video
+INSERT INTO course_video (title,url,id_course) VALUES ('class 1','url 1', 1);
+INSERT INTO course_video (title,url,id_course) VALUES ('class 1','url 1', 2);
 --users
 
 insert
